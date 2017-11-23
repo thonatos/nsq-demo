@@ -1,0 +1,13 @@
+{
+  "name": "nsq-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "DEBUG=nsqjs:* node index.js"
+  },  
+  "dependencies": {
+    "nsqjs": "^0.10.0"
+  }
+}
